@@ -5,7 +5,7 @@ import os, sys, json, tempfile
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import context_audit as ca
 
-workdir = "/home/mr_misfit/.hermes/cache/scratch/clm_repro2_0tqp5si8"
+workdir = "/path/to/.hermes/cache/scratch/clm_repro2_0tqp5si8"
 after = open(os.path.join(workdir, "LIVE_CTX.txt")).read()
 
 # reconstruct the exact "before" the model saw (same construction as v2)
